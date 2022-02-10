@@ -7,5 +7,25 @@ public class Car {
 	String model;
 	Color color;
 	int numPassengers;
-	double amountOfGas;		
+	double amountOfGas;	
+	
+	//Behaviours //Method	
+	//Add/remove a passenger
+	public void addPassenger(int passengers) {
+		this.numPassengers=this.numPassengers+passengers;
+	}
+	
+	public void removePassenger(int passengers) {
+		this.numPassengers=this.numPassengers-passengers;	
+	}
+	
+	// Get the tank filled
+	public void tankFill(double amountOfGas) {
+		this.amountOfGas=this.amountOfGas+amountOfGas;
+	}
+	
+	// Report amount of gas
+	public void getAmountOfGas() {
+		System.out.println(this.amountOfGas);
+	}
 }

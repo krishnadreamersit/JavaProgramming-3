@@ -24,5 +24,16 @@ public class CarTest {
 		System.out.println(car1.model+", "+car1.color);
 		System.out.println(car2.model+", "+car2.color);
 		
+		System.out.println(car1.numPassengers); //5
+		
+		car1.addPassenger(2);
+		System.out.println(car1.numPassengers); //7
+		
+		car1.removePassenger(3);
+		System.out.println(car1.numPassengers); //4
+		
+		car1.getAmountOfGas();
+		car1.tankFill(5);
+		car1.getAmountOfGas();
 	}
 }

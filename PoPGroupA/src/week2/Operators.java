@@ -120,7 +120,7 @@ public class Operators {
 		System.out.println(result);
 		
 		//5. Other operators
-		
+		//?:, ., (), {}, []
 	}
 
 }

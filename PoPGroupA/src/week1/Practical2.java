@@ -66,8 +66,7 @@ public class Practical2 {
 		//9. String - collections of character
 		String str1; //Declare
 		str1 ="Patan College for Professional Studies"; //Assign
-		System.out.println(str1) ;// Value Access
-		
+		System.out.println(str1) ;// Value Access		
 		
 		//Assignment Operator
 		int myNum1; //Declare
@@ -80,16 +79,6 @@ public class Practical2 {
 		int n4, n5,n6;
 		n4=n5=n6=9; // multiple assignment
 		System.out.println(n4); //Access
-		
-			
-				
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 }

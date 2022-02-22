@@ -1,4 +1,4 @@
-package week4_lecture;
+package week4_lecture_1;
 
 public class Calculator {
 	double num1;

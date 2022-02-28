@@ -16,7 +16,7 @@ public class ArrayBasic {
 		}
 		
 		//Processing
-
+		
 		//calculate sum
 		for(int i=0; i<MAX; i++) {
 			sum+=nums[i];
